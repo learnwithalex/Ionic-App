@@ -1,13 +1,18 @@
+:root{
+    --ion-toolbar-background: blue;
+}
 .Toolbar{
     padding: 8px;
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
+    gap: 20px;
 }
 .inputToolbar{
     width: 250px;
     padding: 5px;
-    border: none;
+   
     outline: none;
+    font-size: 22px;
 }
 .iconToolbar{
     width: 10px;
