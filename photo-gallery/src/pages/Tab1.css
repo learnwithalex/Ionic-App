@@ -1,0 +1,17 @@
+.Toolbar{
+    padding: 8px;
+    display: flex;
+    font-size: 20px;
+}
+.inputToolbar{
+    width: 250px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.iconToolbar{
+    width: 10px;
+}
+IonHeader{
+    box-shadow: 2px black;
+}
