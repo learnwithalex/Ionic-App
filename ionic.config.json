@@ -1,0 +1,7 @@
+{
+  "name": "T-Africa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
