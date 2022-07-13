@@ -1,8 +1,7 @@
 import React from 'react';
 import { IonContent, IonHeader, IonFooter, IonPage, IonTitle, IonInput, IonToolbar, IonFab, IonFabButton, IonIcon, IonItem, IonMenu, IonRouterOutlet, IonLabel, IonFabList, IonList, IonMenuButton, IonButtons, IonSearchbar, IonCard, IonCardHeader, IonCardContent, IonCardTitle, IonCardSubtitle, IonGrid, IonRow, IonCol } from '@ionic/react';
-import { add, settings, share, person, arrowForwardCircle, arrowBackCircle, arrowUpCircle, logoVimeo, logoFacebook, logoInstagram, logoTwitter, downloadOutline } from 'ionicons/icons';
+import { add, settings, share, person, arrowForwardCircle, arrowBackCircle, arrowUpCircle, downloadOutline } from 'ionicons/icons';
 
-import './App.js';
 
 const Tab1: React.FC = () => {
  return (
@@ -31,6 +30,7 @@ const Tab1: React.FC = () => {
           <IonCardTitle class="ion-text-center">
            <img src="https://questgig.com/questgig.png" height="30" width="30"></img> T-Africa
           </IonCardTitle>
+          <IonSearchbar placeholder="Search or enter Address"></IonSearchbar>
         </IonCardHeader>
       
 <IonGrid>
